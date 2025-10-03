@@ -713,7 +713,6 @@ GameObject:
   - component: {fileID: 422056033}
   - component: {fileID: 422056034}
   - component: {fileID: 422056036}
-  - component: {fileID: 422056035}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -750,18 +749,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   score: 0
   targetScore: 4
---- !u!114 &422056035
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422056031}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68a3dc40f2bdcce4685fb4cc376f2ae0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &422056036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6990,13 +6977,14 @@ GameObject:
   - component: {fileID: 1489894344}
   - component: {fileID: 1489894343}
   - component: {fileID: 1489894342}
+  - component: {fileID: 1489894346}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1489894342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7080,6 +7068,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1489894346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489894341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc6f19190abc0e44bbda2304b9920f8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1531494792
 GameObject:
   m_ObjectHideFlags: 0
