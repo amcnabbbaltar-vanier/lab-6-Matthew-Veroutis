@@ -31,7 +31,10 @@ public class PauseManager : MonoBehaviour
         Time.timeScale = 0f;
         // (Optional) Freeze audio
         // AudioListener.pause = true;
+
+        Cursor.visible = true;
         isPaused = true;
+
     }
 
     // This method resumes the game.
@@ -44,6 +47,7 @@ public class PauseManager : MonoBehaviour
         // (Optional) Unfreeze audio
         // AudioListener.pause = false;
         isPaused = false;
+        Cursor.visible = false;
     }
 
     // Optional: a method for quitting the game or returning to the main menu.
